@@ -32,7 +32,7 @@ public class SnowFlake {
         this.x = MathUtils.random(0, SCR_WIDTH);
         this.y = MathUtils.random(SCR_HEIGHT+height, SCR_HEIGHT*2);
         stepX = MathUtils.random(-0.2f, 0.2f);
-        stepY = MathUtils.random(-2f, -1);
+        stepY = MathUtils.random(-1f, -0.5f);
     }
 
     boolean hit(float tx, float ty){
